@@ -1,90 +1,41 @@
-
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* "*" means apply all the elements in it brackets to the webpage */
-a{
-    text-decoration: none;
-}
-body{
-    background-color: aquamarine;
-}
-/* style header */
-header{
-    background-image:url(header-bg.webp);
+    padding: 20px;
+    background-image: url(IMAGE.jpg);
     width: 100vw;
     height: 100vh;
     background-position: bottom;
     background-size: cover;
-    /* in css images can be displayed eighter horizontally or vertically */
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
 }
-.header-content{
-    color: whitesmoke;
+
+header {
     text-align: center;
-    margin-bottom: 150px;
-}
-.header-content h2{
-    font-size: 4vmin;
-}
-.line {
-    width: 150px;
-    height: 5px;
-    background-color: #fc036b;
-    margin: 10px auto;
-    border-radius: 10px;
-}
-.header-content h1{
-    font-size: 10vmin;
-    margin: 50px;
-    margin-bottom: 30px;
-}
-.ctn {
-    padding: 8px 15px;
-    background-color: #fc036b;
-    border-radius: 30px;
-    color: whitesmoke;
+    color: aliceblue;
 }
 
-.ctn:hover{
-    background-color:whitesmoke;
-    color: #fc036b;
-    box-shadow: 5px 5px 5px #00000056;
-    
+main {
+    margin-top: 20px;
 }
-/* nav bar */
 
-ul{
-    list-style: none;
+section {
+    margin-bottom: 20px;
 }
-.navbar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 20px;
-    color: whitesmoke;
 
+ul {
+    list-style-type: none;
+    padding: 0;
 }
-.logo{
-    color: whitesmoke;
+
+li {
+    margin-bottom: 10px;
+    color: aliceblue;
 }
-.nav-links{
-    display: flex;
-    align-items: center;
+
+p {
+    color: aliceblue;
 }
-.nav-links li{
-    margin: 0 30px;
-}
-.active{
-    color: #fc036b;
-    text-decoration: underline;
-    font-weight: bold;
+
+h2 {
+    color: aliceblue;
 }
